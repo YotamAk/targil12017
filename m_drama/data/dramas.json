@@ -1,0 +1,39 @@
+{      
+ "drama":{
+    "movies":[
+                    {
+                        "name": "12 Years a Slave" ,
+                        "released": 2013,
+                        "director": " Steve McQueen",
+                        "writer": "John Ridley",
+                        "like":true
+                    },
+
+                    {
+                        "name": "Metropolis" ,
+                        "released": 1927 ,
+                        "director": "Fritz Lang" ,
+                        "writer": "Fritz Lang",
+                        "like":false
+                    }
+           ],
+
+    "series":[
+                    {
+                        "name": "Game of Thrones" ,
+                        "released": 2011 ,
+                        "director": "Alan Taylor"  ,
+                        "writer": "George Raymond Richard Martin",
+                        "like":true
+                    },
+
+                    {
+                        "name": "Prison Break"  ,
+                        "released": 2015,
+                        "director": "Bobby Roth" ,
+                        "writer":  "Allison Schroeder",
+                        "like":false
+                    }
+            ]
+        }
+}   
