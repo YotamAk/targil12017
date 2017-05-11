@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="UTF-8">
-    <title>VOD-DRAMA API</title>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <title>VOD-DRAMA API</title>
+    </head>
 
 <body>
     <div id="wrapper">
-    <h1>Wellcome to Drama V.O.D Web Service<h1>
-    </div>>
+        <h1>Welcome to Drama V.O.D Web Service<h1>
+        <p>
+            <h3>Get All Movies:</h3>
+             This is a <b>GET</b> route. Shows all the drama movies on V.O.D.<br><br>
+             <a href="https://targil12017.herokuapp.com/getAllMovies">
+                https://targil12017.herokuapp.com/getAllMovies
+            </a>
+        </p>
+
+         <p>
+            <h3>Get All User Favorite:</h3>
+             This is a <b>POST</b> route. Need to use Postman </br>
+             Shows all drama movies and series that tagged as "Like" or not.<br><br>
+                key: like<br>
+                values: 0 or 1<br>
+             <a href="https://targil12017.herokuapp.com/getAllUserFavorite">
+                https://targil12017.herokuapp.com/getAllUserFavorite
+            </a>
+        </p>
+
+        <p>
+            <h3>Get Favorite By Year:</h3>
+             This is a <b>PUT</b> route. Need to use Postman </br>
+             Shows all drama movies and series that tagged as "Like" or not, and released After the year chosen  <br><br>
+                key: like<br>
+                values: 0 or 1<br>
+                key: year<br>
+                values: number<br>
+            <a href="https://targil12017.herokuapp.com/getFavoriteByYear">
+                https://targil12017.herokuapp.com/getFavoriteByYear
+            </a>
+        </p>
+    </div>
 
 
 
 
 
-</body>>
+</body>
+</html>

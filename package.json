@@ -1,12 +1,12 @@
 {
-  "name": "vodproject",
+  "name": "targil12017",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Yotam A",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
